@@ -1,0 +1,34 @@
+{
+  "name": "xuezi",
+  "version": "1.0.0",
+  "description": "exercise project for tedu students",
+  "main": "main.js",
+  "scripts": {
+    "test": "node  ./test.js",
+    "start": "node  ./main.js",
+    "qidong": "node  ./main.js",
+    "stop": "node  ./stop.js",
+    "rebuild": "node  ./bin/build.js",
+    "buile":"node ./node_modules/webpack/bin/webpack.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xf/xz.git"
+  },
+  "keywords": [
+    "tedu",
+    "exercise",
+    "node",
+    "webpack"
+  ],
+  "author": "xufeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xf/xz/issues"
+  },
+  "homepage": "https://github.com/xf/xz#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
